@@ -1,0 +1,11 @@
+<div class="wrapper">
+
+  <ng-container *ngIf="component?.data">
+    <ng-content></ng-content>
+  </ng-container>
+
+  <div class="loading" *ngIf="loading">LOADING...</div>
+  <div class="error" *ngIf="error">ERROR</div>
+
+
+</div>

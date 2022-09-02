@@ -1,0 +1,16 @@
+.wrapper {
+  $side: 300px;
+  width: $side;
+  height: $side;
+
+  margin: 50px;
+
+  background-color: white;
+  border: 2px solid red;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
